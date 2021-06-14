@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.e_project">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.E_Project">
+        <activity android:name=".splash">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity android:name=".team" />
+        <activity android:name=".manager_admin" />
+        <activity android:name=".employee_admin"></activity>
+        <activity android:name=".manager_dashboard" />
+        <activity android:name=".admin_login" />
+        <activity android:name=".Calendar" />
+        <activity android:name=".Employee_Dashboard" />
+        <activity android:name=".leaves" /> <!-- <activity android:name=".team" /> -->
+        <activity android:name=".manager_login" />
+        <activity android:name=".apply_leave" />
+        <activity android:name=".Employee_profile" />
+        <activity android:name=".manager_register" />
+        <activity
+            android:name=".employee_register"
+            android:label="@string/title_activity_employee_register"
+            android:theme="@style/Theme.E_Project.NoActionBar" />
+        <activity
+            android:name=".admin_dashboard"
+            android:label="@string/title_activity_admin_dashboard"
+            android:theme="@style/Theme.E_Project.NoActionBar" />
+        <activity
+            android:name=".summary1"
+            android:label="@string/title_activity_summary1"
+            android:theme="@style/Theme.E_Project.NoActionBar" />
+        <activity
+            android:name=".manager_drawer"
+            android:label="@string/title_activity_manager_drawer"
+            android:theme="@style/Theme.E_Project.NoActionBar" />
+        <activity
+            android:name=".menu_header"
+            android:label="@string/title_activity_menu_header"
+            android:theme="@style/Theme.E_Project.NoActionBar" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

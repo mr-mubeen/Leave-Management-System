@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">E_Project</string>
+    <string name="title_activity_employee__dashboard">Employee_Dashboard</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_menu_header">menu_header</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_activity_barchart">barchart</string>
+    <string name="title_activity_manager_dashboard">manager_dashboard</string>
+    <string name="title_activity_manager_drawer">manager_drawer</string>
+    <string name="title_activity_summary1">summary1</string>
+    <string name="title_activity_admin_dashboard">admin_dashboard</string>
+    <string name="title_activity_employee_register">employee_register</string>
+    <string-array name="leavetype">
+        <item>SL</item>
+        <item>PL</item>
+        <item>CL</item>
+    </string-array>
+</resources>

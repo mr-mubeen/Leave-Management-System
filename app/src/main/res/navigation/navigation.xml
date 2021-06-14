@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/profile">
+
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.example.e_project.profile_frag"
+        android:label="fragment_profile_frag"
+        tools:layout="@layout/fragment_profile_frag" />
+    <fragment
+        android:id="@+id/leave"
+        android:name="com.example.e_project.Apply_leave"
+        android:label="fragment_apply_leave"
+        tools:layout="@layout/fragment_apply_leave" />
+    <fragment
+        android:id="@+id/summary"
+        android:name="com.example.e_project.summary"
+        android:label="fragment_summary"
+        tools:layout="@layout/fragment_summary" />
+    <fragment
+        android:id="@+id/calendar"
+        android:name="com.example.e_project.calnedar"
+        android:label="fragment_calnedar"
+        tools:layout="@layout/fragment_calnedar" />
+</navigation>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Profile" />
+    <item
+        android:id="@+id/leave"
+        android:icon="@drawable/ic_baseline_work_off_24"
+        android:title="Leave" />
+    <item
+        android:id="@+id/summary"
+        android:icon="@drawable/ic_baseline_assignment_24"
+        android:title="Summary" />
+    <item
+        android:id="@+id/calendar"
+        android:icon="@drawable/ic_baseline_calendar_today_24"
+        android:title="Holiday Calendar" />
+    <item
+        android:id="@+id/logout"
+
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        android:title="LogOut" />
+</menu>

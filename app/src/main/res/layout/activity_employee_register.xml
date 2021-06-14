@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".employee_register">
+
+    <EditText
+        android:id="@+id/emp_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColorHint="#000000" />
+
+        <EditText
+            android:id="@+id/emp_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="password"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/emp_j_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="joining Date"
+            android:inputType="date" />
+
+<!--        <ImageView-->
+<!--            android:id="@+id/emp_image_id"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            tools:src="@tools:sample/avatars" />-->
+
+    <Spinner
+        android:id="@+id/spinnerManger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/emp_register_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="reg_employee"
+        android:text="Regsiter Employee" />
+</LinearLayout>

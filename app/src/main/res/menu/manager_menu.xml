@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/leave_id_click"
+
+        android:icon="@drawable/ic_baseline_assignment_24"
+        android:title="Leave Details" />
+    <item
+        android:id="@+id/myteam"
+
+        android:icon="@drawable/ic_baseline_people_alt_24"
+        android:title="My Team" />
+    <item
+
+        android:id="@+id/mlogout"
+
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        android:title="LogOut" />
+</menu>

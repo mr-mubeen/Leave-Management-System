@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".manager_login">
+    <TextView
+        android:id="@+id/employee_badge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:text="Leave Management System"
+        android:textColor="#4CAF50"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/m_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter Username"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/m_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="m_login"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:backgroundTint="#4CAF50" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:onClick="employee_login"
+        android:text="Employee.? Click Here to Login"
+        android:textColor="#009688"
+        android:textStyle="bold" />
+
+</LinearLayout>

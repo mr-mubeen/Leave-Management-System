@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/manager_nav"
+    app:startDestination="@id/leave_id_click">
+
+    <fragment
+        android:id="@+id/status"
+        android:name="com.example.e_project.status"
+        android:label="fragment_status"
+        tools:layout="@layout/fragment_status" />
+    <fragment
+        android:id="@+id/myteam"
+        android:name="com.example.e_project.myteam"
+        android:label="fragment_myteam"
+        tools:layout="@layout/fragment_myteam" />
+    <fragment
+        android:id="@+id/leave_id_click"
+        android:name="com.example.e_project.Leave_deatils"
+        android:label="fragment_leave_deatils"
+        tools:layout="@layout/fragment_leave_deatils" />
+    <fragment
+        android:id="@+id/view_Leaves"
+        android:name="com.example.e_project.View_Leaves"
+        android:label="fragment_view__leaves"
+        tools:layout="@layout/fragment_view__leaves" />
+</navigation>
