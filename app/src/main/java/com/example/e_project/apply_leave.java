@@ -81,11 +81,6 @@ DatePicker d1 ,d2;
         d2=(DatePicker)findViewById(R.id.datePicker1);
 
 
-
-
-
-
-
         navigationView.setItemIconTintList(null);
 
 

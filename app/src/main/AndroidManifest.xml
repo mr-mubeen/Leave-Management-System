@@ -14,6 +14,12 @@
         android:theme="@style/Theme.E_Project">
         <activity android:name=".splash">
 
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
             <!-- <intent-filter> -->
             <!-- <action android:name="android.intent.action.MAIN" /> -->
 
@@ -54,11 +60,7 @@
             android:label="@string/title_activity_menu_header"
             android:theme="@style/Theme.E_Project.NoActionBar" />
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 
